@@ -87,7 +87,7 @@ module.exports = {
 		}),
 		new CleanWebpackPlugin(['dist']),
 		new HtmlWebpackPlugin({
-			template: 'src/template/index.html',
+			template: 'src/app/index.html',
 		}),
 		new HappyPack({
 			id: 'jsx',
